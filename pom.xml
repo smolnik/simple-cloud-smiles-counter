@@ -81,6 +81,6 @@
 				</executions>
 			</plugin>
 		</plugins>
-		<finalName>simple-cloud-smiles-counter</finalName>
+		<finalName>cloudyna2015-cloud-smiles</finalName>
 	</build>
 </project>
