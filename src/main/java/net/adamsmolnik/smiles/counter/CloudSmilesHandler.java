@@ -48,7 +48,7 @@ public class CloudSmilesHandler {
 	}
 
 	private String map(String sn, DynamoDB db) {
-		Table table = db.getTable("things-mapper");
+		Table table = db.getTable("cloudyna2015-things-mapper");
 		Item item = table.getItem("serialNumber", sn);
 		if (item == null) {
 			String mapResult = "undefined-" + UUID.randomUUID().toString();
